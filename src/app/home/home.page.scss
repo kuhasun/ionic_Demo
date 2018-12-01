@@ -1,0 +1,6 @@
+.working {
+  --violet-rgb: 138, 43, 226;
+
+  /* rgba(138, 43, 226, .5) */
+  color: rgba(var(--violet-rgb), .5) /* WORKS! */
+}
